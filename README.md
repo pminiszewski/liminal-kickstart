@@ -1,6 +1,7 @@
 # Liminal Kickstart
 
 Editor plugin for Godot 4. Adds a **Quick Play** toolbar button that lets you pick any scene and launch it immediately, optionally spawning the player at the current 3D viewport camera position.
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0cpyKXPXnno/0.jpg)](https://www.youtube.com/watch?v=0cpyKXPXnno)
 
 ---
 
@@ -16,7 +17,7 @@ Click to open a popup listing scenes to launch:
 | Item | Launches |
 |---|---|
 | **Current Scene** | The scene currently open in the editor. |
-| **Main Scene** | The project's main scene (`application/run/main_scene`). |
+| **Main Scene** | The project's main scene  |
 | *(scene names)* | Scenes matched by the configured glob patterns (see Setup below). |
 
 ---
@@ -34,7 +35,6 @@ res://maps/*.tscn
 res://levels/**/*.tscn
 ```
 
-Standard glob rules apply: `*` matches within a directory, `**` matches across directories.
 
 ---
 
